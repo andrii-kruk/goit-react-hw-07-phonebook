@@ -1,0 +1,24 @@
+.contact_list_container {
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.contact_list_title {
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,30 @@
+.filter_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filter_input {
+  width: 228px;
+  padding: 6px;
+
+  border: 1px solid #b7b7b7;
+  border-radius: 4px;
+}
+
+.filter_button {
+  height: 100%;
+
+  padding: 4px 8px;
+
+  background-color: #ffffff;
+  border: 1px solid #b7b7b7;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.filter_button:hover {
+  background-color: #b1b1b1;
+  border: 1px solid #ffffff;
+}

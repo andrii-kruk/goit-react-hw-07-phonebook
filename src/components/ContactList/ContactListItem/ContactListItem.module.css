@@ -1,0 +1,29 @@
+.contact_item {
+  width: 100%;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.contact_info {
+  margin: 0;
+}
+
+.remove_button {
+  min-width: 75px;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.remove_button:hover {
+  background-color: #45a049;
+}
