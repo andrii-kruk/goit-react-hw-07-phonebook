@@ -15,6 +15,7 @@ export const ContactList = () => {
   const contacts = useSelector(getContacts);
   const isLoading = useSelector(getIsLoading);
   const error = useSelector(getError);
+  console.log('error: ', error);
 
   const dispatch = useDispatch();
 
@@ -36,7 +37,15 @@ export const ContactList = () => {
       ) : (
         <>
           {contacts.items.length === 0 && (
-            <h2 className={contact_list_title}>There are no contacts</h2>
+            <>
+              {error && !isLoading ? (
+                <h2 className={contact_list_title}>
+                  Something went wrong. Try later!
+                </h2>
+              ) : (
+                <h2 className={contact_list_title}>There are no contacts</h2>
+              )}
+            </>
           )}
           <div className={contact_list_container}>
             <ul className={contact_list}>
