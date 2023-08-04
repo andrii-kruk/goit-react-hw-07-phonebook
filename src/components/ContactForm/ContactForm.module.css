@@ -1,0 +1,42 @@
+.contact_form {
+  padding: 32px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #cccccc;
+  border-radius: 8px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input[type='text'],
+.input[type='tel'] {
+  width: 228px;
+  margin-bottom: 10px;
+  padding: 6px;
+
+  border: 1px solid #b7b7b7;
+  border-radius: 4px;
+}
+
+.submit_button {
+  min-width: 95px;
+  padding: 10px;
+
+  background-color: #4caf50;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.submit_button:hover {
+  background-color: #45a049;
+}
